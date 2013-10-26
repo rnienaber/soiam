@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="20px"
+            android:paddingTop="10px"
+            android:textSize="24px"
+            android:textColor="@color/light_blue"
+            android:text="@string/log_activity_header"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20px"
+                android:paddingTop="10px"
+                android:paddingRight="10px"
+                android:textSize="12px"
+                android:textColor="@color/pale"
+                android:text="@string/log_activity_instruction"/>
+
+        <Button
+                android:id="@+id/date_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35px"
+                android:layout_toRightOf="@id/instruction"
+                android:text="@string/today" />
+
+    </RelativeLayout>
+
+    <ListView android:id="@+id/android:list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/all_goals"
+            />
+
+    <Button
+        android:id="@+id/save_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/save_activity"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">So I Am</string>
+    <string name="manage_goals">Manage Goals</string>
+    <string name="log_activity">Log Activity</string>
+    <string name="view_history">View History</string>
+    <string name="so_i_am">So I Am</string>
+    <string name="app_blurb_1">log what you do...</string>
+    <string name="app_blurb_2">see who you are</string>
+
+    <string name="manage_goals_header">Manage Goals</string>
+    <string name="manage_goals_instruction">choose the goals that define who you are</string>
+    <string name="all_goals">My Goals</string>
+    <string name="add_goal">Add Goal</string>
+    <string name="edit_goal">Edit Goal</string>
+    <string name="delete_goal">Delete Goal</string>
+    <string name="edit_goal_instruction">edit your goal</string>
+    <string name="save_goal">Save Goal</string>
+    <string name="save_activity">Save Activity</string>
+    <string name="log_activity_header">Log Activity</string>
+    <string name="log_activity_instruction">log what you did</string>
+    <string name="date">Date:</string>
+    <string name="today">today</string>
+    <string name="this_week">this week</string>
+</resources>

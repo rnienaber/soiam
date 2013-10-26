@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingRight="30px"
+            android:textSize="28px"
+            android:textColor="@color/light_blue"
+            android:text="@string/so_i_am"/>
+
+        <TextView
+            android:id="@+id/app_blurb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10px"
+            android:textSize="9px"
+            android:textColor="@color/pale"
+            android:layout_toRightOf="@id/header"
+            android:text="@string/app_blurb_1"/>
+
+        <TextView
+            android:id="@+id/app_blurb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="9px"
+            android:textColor="@color/pale"
+            android:layout_toRightOf="@id/header"
+            android:layout_below="@id/app_blurb_1"
+            android:text="@string/app_blurb_2"/>
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/this_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="12px"
+            android:paddingLeft="13px"
+            android:text="@string/this_week"/>
+
+    <GridView
+            android:id="@+id/week_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="200px"
+            android:columnWidth="20dp"
+            android:numColumns="7"
+            android:verticalSpacing="2dp"
+            android:horizontalSpacing="2dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+        />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/manage_goals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/manage_goals"/>
+
+        <Button
+            android:id="@+id/log_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@id/manage_goals"
+            android:text="@string/log_activity"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
